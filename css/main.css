@@ -73,10 +73,10 @@ h3{
 }
 
 .container-projects{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: space-between;
+    padding-left: 10px;
     border-bottom: 0.7px white solid;
 }
 
@@ -84,20 +84,14 @@ h3{
     width: 500px;
 }
 
-
-.container-project1{
-    margin-left: 10px;
-    
-}
-
-.container-project2{
-    margin-right: 10px;
-}
-
 .container-projekc1 p,
 .container-project1 h3,
 .container-project2 p,
-.container-project2 h3{
+.container-project2 h3,
+.container-project3 p,
+.container-project3 h3,
+.container-project4 p,
+.container-project4 h3{
     margin: 0;
 }
 

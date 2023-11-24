@@ -53,11 +53,14 @@
     .container-projects{
         display: grid;
         grid-template-columns: 1fr;
+        padding-left: 0;
         border-bottom: 0.7px white solid;
     }
 
     .container-project1,
-    .container-project2{
+    .container-project2,
+    .container-project3,
+    .container-project4{
         margin: 0;
         margin-bottom: 50px;
     }
@@ -96,11 +99,14 @@
     .container-projects{
         display: grid;
         grid-template-columns: 1fr;
+        padding-left: 0;
         border-bottom: 0.7px white solid;
     }
 
     .container-project1,
-    .container-project2{
+    .container-project2,
+    .container-project3,
+    .container-project4{
         margin: 0;
         margin-bottom: 50px;
     }
@@ -148,9 +154,16 @@
     }
 
     .container-project1,
-    .container-project2{
+    .container-project2,
+    .container-project3,
+    .container-project4{
         margin: 0;
         height: 340px;
+    }
+
+    .container-project1,
+    .container-project2{
+        margin-bottom: 15px;
     }
 
     .container-project1{
@@ -164,7 +177,6 @@
     .describtion{
         width: 40vw;
     }
-
 
     .screenshot img{
         width: 45vw;
